@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AACA,sBACI,iBAAkB,CAClB,gBACF","file":"main.890f34b0.chunk.css","sourcesContent":["\r\n.MuiRating-root > label{\r\n    padding-right: 4px;\r\n    padding-left: 4px;\r\n  }"]}
