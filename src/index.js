@@ -14,8 +14,10 @@ root.render(
   */}
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="categorias" element={<Page page={"categorias"}/>}/>    
-      <Route path="categorias/:pageId" element={<PageId/>}></Route>
+      <Route path="/inventos" element={<App />} />
+      <Route path="/inventos/categorias" element={<Page page={"categorias"}/>}/>    
+      <Route path="/inventos/categorias/:pageId" element={<PageId/>}></Route>
+      <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>
 );
